@@ -1608,9 +1608,9 @@ function ed() {
     fx();
     var eV = new Date();
     var eW = eV.getTime();
-    db = ax - (eW - eZ);
-    if (db < 10)
-        db = 10;
+    db = 20 - (eW - eZ);
+    if (db < 1)
+        db = 1;
     cG = setTimeout('ed()', db);
 };
 var cG;
