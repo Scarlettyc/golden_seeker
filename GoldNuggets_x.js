@@ -1016,7 +1016,7 @@ function fm() {
     }
 };
 var aw;
-var fy = "你的分数";
+var fy = "your Score";
 var fY = "Insert your name: ";
 var fJ = "The name must be at least 4 characters!<br>Please insert only charachers and numbers!";
 function fI(bn) {
