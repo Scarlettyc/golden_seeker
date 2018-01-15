@@ -987,36 +987,36 @@ function fn() {
         bp = new XMLHttpRequest();
     }
     return bp;
-};
-function fr() {
-    var hM = new Date();
-    if (aw) {
-        aw.open("POST", aP + '&hi=2&fb=' + R, true);
-        aw.onreadystatechange = fm;
-        aw.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-        var cU = "n=" + T + "&s=" + ap + "&bR=" + bk;
-        if (ac == ar) {
-            cU = "n=" + eh(T) + "&s=" + ap + "&bR=" + bk + '&i=' + cF;
-        }
-        aw.setRequestHeader("Content-length", cU.length);
-        aw.setRequestHeader("Connection", "close");
-        aw.send(cU);
-    }
-};
-function fm() {
-    if (aw.readyState == 4) {
-        if (aw.status == 200) {
-            bm();
-            if (ez) {
-                var ah = aP + '&hi=1&fb="+R;';
-                location.href = ah;
-            }
-        } else {
-            alert("Error ...");
-            bm();
-        }
-    }
-};
+// };
+// function fr() {
+//     var hM = new Date();
+//     if (aw) {
+//         aw.open("POST", aP + '&hi=2&fb=' + R, true);
+//         aw.onreadystatechange = fm;
+//         aw.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+//         var cU = "n=" + T + "&s=" + ap + "&bR=" + bk;
+//         if (ac == ar) {
+//             cU = "n=" + eh(T) + "&s=" + ap + "&bR=" + bk + '&i=' + cF;
+//         }
+//         aw.setRequestHeader("Content-length", cU.length);
+//         aw.setRequestHeader("Connection", "close");
+//         aw.send(cU);
+//     }
+// };
+// function fm() {
+//     if (aw.readyState == 4) {
+//         if (aw.status == 200) {
+//             bm();
+//             if (ez) {
+//                 var ah = aP + '&hi=1&fb="+R;';
+//                 location.href = ah;
+//             }
+//         } else {
+//             alert("Error ...");
+//             bm();
+//         }
+//     }
+// };
 var aw;
 var fy = "Your score";
 var fY = "Insert your name: ";
@@ -1104,38 +1104,38 @@ function fL() {
         }
     }
 };
-function cp() {
-    if (ey) {
-        aw = new fn();
-        fr();
-    } else {
-        bm();
-        var ah = aP + '&hi=2&fb=' + R + '&n=' + T + '&s=' + ap + '&bR=' + bk + '&r=1';
-        if (ac == ar) {
-            ah = aP + '&hi=2&fb=' + R + '&n=' + eh(T) + '&s=' + ap + '&bR=' + bk + '&r=1&i=' + cF;
-            location.href = ah;
-        } else if (cB == 0)
-        ;
-        else
-            location.href = ah;
-    }
-};
-function go() {
-    var cv = document.getElementById('user').value;
-    T = cv;
-    if ((cv.length > 3) && fI(cv)) {
-        fP();
-        ap = L;
-        bk = T.charAt(1) + am(9) + (ap * 89) + am(9) + T.charAt(3) + 'fc1' + am(9) + T.charAt(0) + am(9) + T.charAt(1) + '4z3' + (ap * 7) + '3247z11';
-        if (cB == 0) {
-            var ah = aP + '&hi=2&n=' + T + '&s=' + ap + '&bR=' + bk + '&r=1';
-            document.getElementById('su').innerHTML = '<a href="' + ah + '"><img ' + Q + '=\'cp();\' src=\'' + bv + '\' border=0></a>';
-        } else
-            document.getElementById('su').innerHTML = '<img ' + Q + '=\'cp();\' src=\'' + bv + '\' >';
-        t('su', 0, 0, 200);
-        o('su', K - (document.getElementById('su').offsetWidth >> 1), 220 * f);
-    }
-};
+// function cp() {
+//     if (ey) {
+//         aw = new fn();
+//         fr();
+//     } else {
+//         bm();
+//         var ah = aP + '&hi=2&fb=' + R + '&n=' + T + '&s=' + ap + '&bR=' + bk + '&r=1';
+//         if (ac == ar) {
+//             ah = aP + '&hi=2&fb=' + R + '&n=' + eh(T) + '&s=' + ap + '&bR=' + bk + '&r=1&i=' + cF;
+//             location.href = ah;
+//         } else if (cB == 0)
+//         ;
+//         else
+//             location.href = ah;
+//     }
+// };
+// function go() {
+//     var cv = document.getElementById('user').value;
+//     T = cv;
+//     if ((cv.length > 3) && fI(cv)) {
+//         fP();
+//         ap = L;
+//         bk = T.charAt(1) + am(9) + (ap * 89) + am(9) + T.charAt(3) + 'fc1' + am(9) + T.charAt(0) + am(9) + T.charAt(1) + '4z3' + (ap * 7) + '3247z11';
+//         if (cB == 0) {
+//             var ah = aP + '&hi=2&n=' + T + '&s=' + ap + '&bR=' + bk + '&r=1';
+//             document.getElementById('su').innerHTML = '<a href="' + ah + '"><img ' + Q + '=\'cp();\' src=\'' + bv + '\' border=0></a>';
+//         } else
+//             document.getElementById('su').innerHTML = '<img ' + Q + '=\'cp();\' src=\'' + bv + '\' >';
+//         t('su', 0, 0, 200);
+//         o('su', K - (document.getElementById('su').offsetWidth >> 1), 220 * f);
+//     }
+// };
 function eh(dc) {
     dc = (dc + '').toString();
     return encodeURIComponent(dc).replace(/!/g, '%21').replace(/'/g, '%27').replace(/\(/g, '%28').replace(/\)/g, '%29').replace(/\*/g, '%2A').replace(/%20/g, '+');
