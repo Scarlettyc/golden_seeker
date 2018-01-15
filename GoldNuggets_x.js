@@ -410,7 +410,7 @@ function J() {
             document.getElementById("lob2").style.border = "1px solid #000";
             document.getElementById("lob2").style.width = (by * dL) + "px";
         } else
-            dG[by] = setTimeout('J()',0);
+            dG[by] = setTimeout('J()',5);
     }
 };
 var ar = 5;
