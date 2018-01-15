@@ -635,7 +635,9 @@ document.write('<img id=\'ten\'   style=\'position:absolute;top:0px;left:0px;vis
 var aH = 20;
 for (var i = 0; i < aH; i++)
     document.write('<img id=\'bou' + i + '\'  ' + P + '=\'cR()\' ' + P + '=\'cR()\'   style=\'position:absolute;top:0px;left:0px;visibility:hidden;z-Index:5;\' src=\'' + aE[i % 17] + '\' >');
-document.write('<div id=\'li\' style=\'position:absolute;top:0px;left:0px;width:' + (1 * f) + 'px;height:' + (1 * f) + 'px;color:#f90707;border-Width:' + (2 * f) + 'px 0px 0px 0px;border-Style:solid;visibility:hidden;z-Index:90;\'></div>');
+// document.write('<div id=\'li\' style=\'position:absolute;top:0px;left:0px;width:' + (1 * f) + 'px;height:' + (1 * f) + 'px;color:#f90707;border-Width:' + (2 * f) + 'px 0px 0px 0px;border-Style:solid;visibility:hidden;z-Index:90;\'></div>');
+
+ document.write('<div id=\'li\' style=\'position:absolute;top:0px;left:0px;width:' + (1 * f) + 'px;height:' + (1 * f) + 'px;background-image:url(rope.png);background-repeat:repeat-y;visibility:hidden;z-Index:90;\'></div>');
 document.write('</div>');
 function B(C) {
     document.getElementById(C).style.visibility = 'hidden';
