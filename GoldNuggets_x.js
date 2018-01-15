@@ -410,7 +410,7 @@ function J() {
             document.getElementById("lob2").style.border = "1px solid #000";
             document.getElementById("lob2").style.width = (by * dL) + "px";
         } else
-            dG[by] = setTimeout('J()', 20);
+            dG[by] = setTimeout('J()',0);
     }
 };
 var ar = 5;
@@ -624,7 +624,7 @@ document.write('<div id=\'en\' style=\'' + bq + 'color:#ffffff;font-family:Arial
 if ((g == ae) || (g == at))
     eg('en', "7f4f00");
 document.write('<div id=\'t1\' style=\'' + bq + 'color:#ffffff;font-family:Arial;font-size:' + (42 * f) + 'px;text-shadow: 2px 2px 2px #000000;\'></div>');
-document.write('<div id=\'g1\' style=\'' + bq + 'color:#ffffff;font-family:Arial;font-size:' + (42 * f) + 'px;text-shadow: 2px 2px 2px #000000;\'>游戏结束</div>');
+document.write('<div id=\'g1\' style=\'' + bq + 'color:#ffffff;font-family:Arial;font-size:' + (42 * f) + 'px;text-shadow: 2px 2px 2px #000000;\'>Game Over</div>');
 document.write('<img id=\'ti\' style=\'position:absolute;top:0px;left:0px;visibility:hidden;z-Index:0;\' src=\'' + ds + '\' >');
 document.write('<img id=\'ba\' ' + P + '=\'bt()\'  ' + aq + '=\'bt()\' style=\'position:absolute;top:0px;left:0px;visibility:hidden;opacity:0.5;-moz-opacity:0.6;filter:alpha(opacity=60);z-Index:7;\' src=\'' + ej + '\' >');
 document.write('<img id=\'bka\' ' + P + '=\'bt()\'  ' + aq + '=\'bt()\' style=\'position:absolute;top:0px;left:0px;visibility:hidden;z-Index:6;\' src=\'' + ci + '\' >');
@@ -637,7 +637,7 @@ for (var i = 0; i < aH; i++)
     document.write('<img id=\'bou' + i + '\'  ' + P + '=\'cR()\' ' + P + '=\'cR()\'   style=\'position:absolute;top:0px;left:0px;visibility:hidden;z-Index:5;\' src=\'' + aE[i % 17] + '\' >');
 // document.write('<div id=\'li\' style=\'position:absolute;top:0px;left:0px;width:' + (1 * f) + 'px;height:' + (1 * f) + 'px;color:#f90707;border-Width:' + (2 * f) + 'px 0px 0px 0px;border-Style:solid;visibility:hidden;z-Index:90;\'></div>');
 
- document.write('<div id=\'li\' style=\'position:absolute;top:0px;left:0px;width:' + (1 * f) + 'px;height:' + (1 * f) + 'px;background-image:url(rope.png);background-repeat:repeat-y;z-Index:90;\'></div>');
+ document.write('<img id=\'li\' style=\'position:absolute;top:0px;left:0px;width:' + (10*f) + 'px;height:' + (5 * f) + 'px;z-Index:90;\'src="rope2.png"></img>');
 document.write('</div>');
 function B(C) {
     document.getElementById(C).style.visibility = 'hidden';
